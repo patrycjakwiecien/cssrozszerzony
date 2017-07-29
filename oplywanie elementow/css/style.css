@@ -1,0 +1,12 @@
+img#kwietek {
+    float:left;
+}
+
+img#kwietek2 {
+    float: right;
+}
+
+p:last-child {
+    background-color: beige;
+    clear:both;
+}
