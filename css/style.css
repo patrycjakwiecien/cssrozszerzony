@@ -1,0 +1,94 @@
+#p1::before {content: "przed elementem";
+color: red;
+}
+
+#p2::after{
+    content: "po elemencie";
+        color: pink;
+}
+
+#p3::first-letter{
+    color:green;
+    text-transform: uppercase;
+}
+
+#p4::first-line {
+    color:orange;
+}
+
+p::selection {
+    background-color: cyan;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color:orange;
+}
+a:visited{
+    color: deepskyblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+   color: fuchsia;
+}
+
+a:focus {
+color: yellow;
+}
+
+#p1 {
+    color:aqua;
+}
+
+#p1:target {
+    color:green;
+}
+
+p:lang(pl){
+    font-style: italic;
+    color:rebeccapurple;
+}
+
+
+div.klient:first-child{
+    color:chartreuse;
+}
+
+div.klient:last-child{
+    color:brown;
+}
+
+div.klient:only-child{
+    color:palevioletred;
+}
+
+div.klient:empty{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.klient:nth-child(even){
+    background-color: bisque;
+}
+
+.klient:nth-child(odd){
+    background-color: aquamarine;
+}
+
+.klient:nth-child(5n){
+    background-color: olive;
+}
+
+.klient:nth-child(5n+4){
+    background-color: lightpink;
+}
+
