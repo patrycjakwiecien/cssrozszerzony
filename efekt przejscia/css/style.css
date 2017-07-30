@@ -40,7 +40,8 @@
 
 #colors {
     background-color: yellow;
-    transition: background-color 3s ease-in 2s;
+    transition: background-color 3s ease-in
+        2s;
     
 }
 

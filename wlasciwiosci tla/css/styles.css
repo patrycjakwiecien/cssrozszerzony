@@ -1,0 +1,9 @@
+#tlo-obrazek {
+     color: white;
+    background-color: antiquewhite;
+    background-image: url("../img/kwietek.jpg");
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-attachment: fixed;
+       
+}
